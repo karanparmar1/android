@@ -1,7 +1,7 @@
 Academic Project :
 JODIDAR Android Application:
 
-Due to the reason that my institute wouldn't allow Android API 15, 
+Due to the reason that my institute wouldn't allow Android API >15, 
 this application is built to support android API 11 to the API 15 .
 
 the App is built using Android API 15 and JAVA programming Language, with PHP as API Backend and MySql as Database.
