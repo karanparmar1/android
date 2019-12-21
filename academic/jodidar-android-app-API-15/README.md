@@ -19,6 +19,7 @@ Requirements:
   - PHPMyAdmin for Mysql 
   - Java 8 
   - Android Max SDK version 15  
+  - Eclipse IDE was used.
 
 _________________________________________________________________  
  Features of the Application : 
