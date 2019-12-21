@@ -1,5 +1,5 @@
-Academic Project :
-JODIDAR Android Application:
+**Academic Project : 
+JODIDAR Android Application:**
 
 Due to the reason that my institute wouldn't allow Android API >15, 
 this application is built to support android API 11 to the API 15 .
