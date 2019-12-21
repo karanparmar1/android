@@ -35,11 +35,11 @@ _________________________________________________________________
     - ADMIN panel,
     - membership plans. 
 ____________________________________________________________
-- NOTE: *This was academic Project therefore is not supposed to provide advanced feature such that one could compare it to Apps in market,* 
-          *I know Current GUI is trash but i had very short period of time to learn & implement in college Lab Hours (External Upload was not)* 
+- NOTE: *This was academic Project therefore is not supposed to provide advanced feature such that one could compare it to Apps in market,*  
+          *I know Current GUI is trash but i had very short period of time to learn & implement in college Lab Hours*  
           *This was purely for Learning purpose with fun.* 
           
  ```
- - Database dump and php API files are provided in projects /jodidar/backend folder so you can set them up locally,
- - if you need to change the IP in android app or in Api request:
-                Session.java & Connection.php has IP address variable ,you can modify them.```
+  - Database dump and php API files are provided in projects /jodidar/backend folder so you can set them up locally,
+  - if you need to change the IP in android app or in Api request: 
+                Session.java & Connection.php has IP address variable ,you can modify them.
