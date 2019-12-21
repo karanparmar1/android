@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jodidar</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Logout">Log Out</string>
+    <string name="action_Login">LOG IN</string>
+    <string name="action_Signup">Sign up</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_display_user_list">All Users List</string>
+    <string name="title_activity_profile">User Profile</string>
+    <string name="title_activity_filter">Set User Preference</string>
+
+    <string-array name="religions">
+        <item>Any</item>
+        <item>Buddhism</item>
+        <item>Christian</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Parsi</item>
+        <item>Jain</item>
+        <item>Sikh</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="locations">
+        <item>Any</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="educations">
+        <item>Any</item>
+        <item>Agriculture</item>
+        <item>Architecture</item>
+        <item>Arts</item>
+        <item>Aviation</item>
+        <item>Commerce</item>
+        <item>Computer Applications</item>
+        <item>Dental</item>
+        <item>Design</item>
+        <item>Diploma course</item>
+        <item>Education</item>
+        <item>Engineering</item>
+        <item>Hotel Management</item>
+        <item>Law</item>
+        <item>Management</item>
+        <item>Mass Communications</item>
+        <item>Medical</item>
+        <item>Paramedical</item>
+        <item>PH.D Research</item>
+        <item>Pharmacy</item>
+        <item>Science</item>
+        <item>Veterinary Sciences</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Any</item>
+        <item>Assamese</item>
+        <item>Bengali</item>
+        <item>Bhojpuri</item>
+        <item>English</item>
+        <item>Gujarati</item>
+        <item>Hindi</item>
+        <item>Kannada</item>
+        <item>Maithili</item>
+        <item>Malayalam</item>
+        <item>Malvi</item>
+        <item>Marathi</item>
+        <item>Marwari</item>
+        <item>Odia</item>
+        <item>Punjabi</item>
+        <item>Rajasthani</item>
+        <item>Sanskrit</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Urdu</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="professions">
+        <item>Any</item>
+        <item>Agriculture, Food &amp; Natural Resources</item>
+        <item>Architecture &amp; Construction</item>
+        <item>Arts, Audio/Video Technology &amp; Communications</item>
+        <item>Business</item>
+        <item>Business Management &amp; Administration</item>
+        <item>Education &amp; Training</item>
+        <item>Finance</item>
+        <item>Government &amp; Public Administration</item>
+        <item>Health Science</item>
+        <item>Hospitality &amp; Tourism</item>
+        <item>Human Services</item>
+        <item>Information Technology</item>
+        <item>Law, Public Safety, Corrections &amp; Security</item>
+        <item>Manufacturing</item>
+        <item>Marketing, Sales &amp; Service</item>
+        <item>Science, Technology, Engineering &amp; Mathematics</item>
+        <item>Transportation, Distribution &amp; Logistics</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="genders">
+        <item>Any</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="manglik">
+        <item>Any</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.k5207.jodidar.view.FilterActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Find Matches with following preferences" />
+
+    <ScrollView
+        android:id="@+id/scroller1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp" >
+
+                <Button
+                    android:id="@+id/btnReligion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Set Religion"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Set Gender "
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Age Between "
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0" >
+
+                    <EditText
+                        android:id="@+id/minAge"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.3"
+                        android:background="@color/tealBlue"
+                        android:hint="MinAge"
+                        android:inputType="text|numberSigned"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tvDash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="13dp"
+                        android:text="to"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/maxAge"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.3"
+                        android:background="@color/tealBlue"
+                        android:hint="MaxAge"
+                        android:inputType="text|numberSigned"
+                        android:paddingLeft="7dp"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btnSaveAge"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.4"
+                        android:background="@color/tealBlue"
+                        android:padding="15dp"
+                        android:text="Set Age"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Set Location"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Set Mothertongue"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnEducation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Set Education"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Set Profession"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnManglik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/tealBlue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="should be Manglik ?"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtReligion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Preferences:" />
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/tealBlue"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/user_find"
+                    android:padding="15dp"
+                    android:text="Get your Matches "
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
